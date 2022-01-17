@@ -1,0 +1,253 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642139924537' stop='1642139943539'>
+    <name>Dark Knight Trailer: Play the Dark Knight Trailer</name>
+    <title>Dark Knight Trailer: Play the Dark Knight Trailer</title>
+    <test-cases>
+        <test-case start='1642139924538' status='passed' stop='1642139924538'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139924538' status='passed' stop='1642139943513'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139943513' status='broken' stop='1642139943537'>
+            <name>When I wait until the Menu Icon is clickable</name>
+            <title>When I wait until the Menu Icon is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: Navbar is not defined</message>
+                <stack-trace>ReferenceError: Navbar is not defined
+                    at World.&lt;anonymous> (/Users/adrianarosas/Documents/JwPlayer/Exercise_Cucumber/features/step-definitions/darkknight.js:12:5)
+                    at World.executeAsync (/Users/adrianarosas/Documents/JwPlayer/Exercise_Cucumber/node_modules/@wdio/utils/build/shim.js:325:27)
+                    at World.testFrameworkFnWrapper (/Users/adrianarosas/Documents/JwPlayer/Exercise_Cucumber/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Object.wrapPromiseWithTimeout (/Users/adrianarosas/Documents/JwPlayer/Exercise_Cucumber/node_modules/@cucumber/cucumber/src/time.ts:56:10)
+                    at Object.run (/Users/adrianarosas/Documents/JwPlayer/Exercise_Cucumber/node_modules/@cucumber/cucumber/src/user_code_runner.ts:86:16)
+                    at Object.run (/Users/adrianarosas/Documents/JwPlayer/Exercise_Cucumber/node_modules/@cucumber/cucumber/src/runtime/step_runner.ts:50:20)
+                    at TestCaseRunner.invokeStep (/Users/adrianarosas/Documents/JwPlayer/Exercise_Cucumber/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:130:12)
+                    at TestCaseRunner.runStep (/Users/adrianarosas/Documents/JwPlayer/Exercise_Cucumber/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:307:20)
+                    at /Users/adrianarosas/Documents/JwPlayer/Exercise_Cucumber/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:210:36</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642139943537' status='undefined'>
+            <name>Then I should click on the menu icon</name>
+            <title>Then I should click on the menu icon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139943537' status='undefined'>
+            <name>And I should validate the menu is displayed</name>
+            <title>And I should validate the menu is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139943537' status='undefined'>
+            <name>When I verificate that I can see the Top 250 Movies option</name>
+            <title>When I verificate that I can see the Top 250 Movies option</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139943537' status='undefined'>
+            <name>Then I should click on the Top 250 Movies option</name>
+            <title>Then I should click on the Top 250 Movies option</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139943537' status='undefined'>
+            <name>And I should validate I am on the Top 250 Movies Page</name>
+            <title>And I should validate I am on the Top 250 Movies Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139943537' status='undefined'>
+            <name>Then I wait until the movie The Dark Knight is shown in the Page</name>
+            <title>Then I wait until the movie The Dark Knight is shown in the Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139943537' status='undefined'>
+            <name>And I click on the The Dark Knight movie</name>
+            <title>And I click on the The Dark Knight movie</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139943537' status='undefined'>
+            <name>Then I should validate that the player state is idle</name>
+            <title>Then I should validate that the player state is idle</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139943537' status='undefined'>
+            <name>And I should scroll until see the video</name>
+            <title>And I should scroll until see the video</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139943538' status='undefined'>
+            <name>When I click on the play button</name>
+            <title>When I click on the play button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139943538' status='broken' stop='1642139943538'>
+            <name>Then I should be on the Dark Knight Trailer Page</name>
+            <title>Then I should be on the Dark Knight Trailer Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should be on the Dark Knight Trailer Page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should be on the Dark Knight Trailer Page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/adrianarosas/Documents/JwPlayer/Exercise_Cucumber/features/DarkKnight.feature):1:1
+                	at Scenario(Play the Dark Knight Trailer):3:3
+                	at Step(I should be on the Dark Knight Trailer Page):17:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642139943538' status='undefined'>
+            <name>And I should validate that the player state is playing</name>
+            <title>And I should validate that the player state is playing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642139943538' status='passed' stop='1642139943539'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

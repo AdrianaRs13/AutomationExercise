@@ -1,6 +1,6 @@
 # Fermich Exercises
 
-This project contains three different exercise in each directory.
+This project contains the instructions to run the five differents exercises.
 
 ## Running Tests For Pokemon API Exercise
 First, you have to be placed in the "Pokemon-Exercise" directory. To run one of the two different cases, you have to write 'npm run' + the corresponding exercise.

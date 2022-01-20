@@ -6,7 +6,7 @@ This project contains three different exercise in each directory.
 
 ## Running Tests For Reading Txt File Exercise
 
-First, you have to be placed in the exercise directory. Then you to run one of the following code lines. 
+First, you have to be placed in the "Pokemon-Exercise" directory. Then you to run one of the following code lines. 
 To run the three different cases, you have to write 'npm run' + the corresponding exercise.
 
 For reading the file

@@ -25,11 +25,11 @@ First, you have to be placed in the "Pokemon-Exercise" directory. To run one of 
 ```bash
 npm run e3
 ```
-### For replacing a word in a text file
+### For replacing "Pokemon" with "Fermich" in the text file
 ```bash
 npm run e4
 ```
-### For counting a word in a text file
+### For counting how many times "Pokemon" appears in the text file
 
 ```bash
 npm run e5

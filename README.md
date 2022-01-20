@@ -5,13 +5,13 @@ This project contains three different exercise in each directory.
 ## Running Tests For Pokemon API Exercise
 First, you have to be placed in the "Pokemon-Exercise" directory. To run one of the two different cases, you have to write 'npm run' + the corresponding exercise.
 
-For finding an specific Pokemon by its name
+### For finding an specific Pokemon by its name
 ```bash
 npm run e1
 ```
 **Note: If you want to change the Pokemon name, you have to modify the const "nameP" found in the file "exercise1.js". It comes with the predetermined value "charizard".
 
-For finding all the pokemon by a specific letter. 
+### For finding all the pokemon by a specific letter. 
 ```bash
 npm run e2
 ```
@@ -21,15 +21,15 @@ npm run e2
 
 First, you have to be placed in the "Pokemon-Exercise" directory. To run one of the three different cases, you have to write 'npm run' + the corresponding exercise.
 
-For reading the file
+### For reading the file
 ```bash
 npm run e3
 ```
-For replacing a word in a text file
+### For replacing a word in a text file
 ```bash
 npm run e4
 ```
-For counting a word in a text file
+### For counting a word in a text file
 
 ```bash
 npm run e5

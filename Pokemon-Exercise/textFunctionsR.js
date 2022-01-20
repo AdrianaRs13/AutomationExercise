@@ -8,16 +8,16 @@ function replaceText(replaceWord, newWord, pathFile){
     const file = readText(pathFile)
     let regexWord = new RegExp(replaceWord, 'g')
     const replaceText = file.replace(regexWord, newWord)
-    console.log(replaceText)
+    return replaceText
 }
+
 function countWord(word, pathFile){
     const file = readText(pathFile)
     let regexWord = new RegExp(word, 'g')
     var arrayWord = file.match(regexWord)
     const size = arrayWord.length
-    console.log(size)
-
+    return size
 }
 
-replaceText('Pokémon', 'Fermich', './pokemon.txt')
-countWord('Pokémon', './pokemon.txt')
+export { readText, replaceText, countWord }; 
+
